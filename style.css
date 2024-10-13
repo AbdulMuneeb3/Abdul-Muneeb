@@ -14,7 +14,6 @@ p{
     height: 30rem;
     background-color: grey;
     position: relative;
-    display: flex;
 }
 
 .child{
@@ -22,7 +21,6 @@ p{
     height: 10rem;
     background-color: greenyellow;
     position: absolute;
-    display: flex;
-   justify-content: center;
-   align-items: center;
+   right: 50%;
+   bottom: 50%;
 }
