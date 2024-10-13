@@ -1,0 +1,28 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} 
+*/
+p{
+    border: 1px solid grey;
+    margin: 50px;
+    padding: 50px;
+}
+
+.parent{
+    width: 26rem;
+    height: 30rem;
+    background-color: grey;
+    position: relative;
+    display: flex;
+}
+
+.child{
+    width: 5rem;
+    height: 10rem;
+    background-color: greenyellow;
+    position: absolute;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+}
