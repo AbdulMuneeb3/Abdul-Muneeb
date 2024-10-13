@@ -21,16 +21,17 @@ body{
 .parent{
     width: 30rem;
     height: 30rem;
-    background-color: grey;
+    background-color: burlywood;
     display: flex;
     justify-content: center;
     align-content: center;
     align-items: center;
+    
 }
 
 .child{
     width: 5rem;
     height: 5rem;
-    background-color: greenyellow;
-  
+    background-color: black;
+    margin: 2rem;
 }
