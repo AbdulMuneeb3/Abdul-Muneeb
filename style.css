@@ -9,18 +9,28 @@ p{
     padding: 50px;
 }
 
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+
 .parent{
     width: 30rem;
     height: 30rem;
     background-color: grey;
-    position: relative;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
 }
 
 .child{
     width: 5rem;
     height: 5rem;
     background-color: greenyellow;
-    position: absolute;
-   left: 40%;
-   top: 40%;
+  
 }
