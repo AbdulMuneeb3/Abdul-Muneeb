@@ -47,3 +47,15 @@ body{
 .form-container button:hover {
     background-color: #45a049;
 }
+
+li{
+    display: inline;
+    margin-right: 10px;
+    a{
+        text-decoration: none;
+        color: #45a049;
+        &:hover{
+            color: red;
+        }
+    }
+}
