@@ -80,7 +80,7 @@
   
   .product-list {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
   }
   
@@ -90,13 +90,13 @@
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     text-align: center;
-    margin: 20px;
-    width: 450px;
+    margin: 15px;
+    width: 340px; 
   }
   
   .product-item img {
-    width: 260px;
-    height: 300px;
+    width: 180px;
+    height: 220px;
     object-fit: cover;
     margin-bottom: 15px;
   }
@@ -120,7 +120,7 @@
   }
   
   .product-item button:hover {
-    background-color: #e64a19;
+    background-color: #ff0000;
   }
   
   footer {
